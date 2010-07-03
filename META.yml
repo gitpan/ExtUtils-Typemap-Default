@@ -1,0 +1,29 @@
+---
+abstract: 'A set of useful typemaps'
+author:
+  - 'Steffen Mueller <smueller@cpan.org>'
+build_requires:
+  Module::Build: 0
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3605'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: ExtUtils-Typemap-Default
+provides:
+  ExtUtils::Typemap::Default:
+    file: lib/ExtUtils/Typemap/Default.pm
+    version: 0.01
+  ExtUtils::Typemap::ObjectMap:
+    file: lib/ExtUtils/Typemap/ObjectMap.pm
+    version: 0.01
+  ExtUtils::Typemap::STL::String:
+    file: lib/ExtUtils/Typemap/STL/String.pm
+    version: 0.01
+requires:
+  ExtUtils::Typemap: 0.05
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.01

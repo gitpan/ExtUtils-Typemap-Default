@@ -1,0 +1,9 @@
+Build.PL
+Changes
+lib/ExtUtils/Typemap/Default.pm
+lib/ExtUtils/Typemap/ObjectMap.pm
+lib/ExtUtils/Typemap/STL/String.pm
+MANIFEST			This list of files
+MANIFEST.SKIP
+t/001_load.t
+META.yml

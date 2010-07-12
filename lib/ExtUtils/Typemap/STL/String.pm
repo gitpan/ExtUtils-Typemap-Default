@@ -4,13 +4,13 @@ use strict;
 use warnings;
 use ExtUtils::Typemap;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 our @ISA = qw(ExtUtils::Typemap);
 
 =head1 NAME
 
-ExtUtils::Typemap::STL::String - A set of typemaps STL std::strings
+ExtUtils::Typemap::STL::String - A set of typemaps for STL std::strings
 
 =head1 SYNOPSIS
 

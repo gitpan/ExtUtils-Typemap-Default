@@ -1,5 +1,6 @@
 Build.PL
 Changes
+lib/ExtUtils/Typemap/Basic.pm
 lib/ExtUtils/Typemap/Default.pm
 lib/ExtUtils/Typemap/ObjectMap.pm
 lib/ExtUtils/Typemap/STL.pm

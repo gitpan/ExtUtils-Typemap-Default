@@ -13,12 +13,15 @@ meta-spec:
   version: 1.4
 name: ExtUtils-Typemap-Default
 provides:
+  ExtUtils::Typemap::Basic:
+    file: lib/ExtUtils/Typemap/Basic.pm
+    version: 0.03
   ExtUtils::Typemap::Default:
     file: lib/ExtUtils/Typemap/Default.pm
-    version: 0.02
+    version: 0.03
   ExtUtils::Typemap::ObjectMap:
     file: lib/ExtUtils/Typemap/ObjectMap.pm
-    version: 0.01
+    version: 0.03
   ExtUtils::Typemap::STL:
     file: lib/ExtUtils/Typemap/STL.pm
     version: 0.02
@@ -32,4 +35,4 @@ requires:
   ExtUtils::Typemap: 0.05
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.02
+version: 0.03

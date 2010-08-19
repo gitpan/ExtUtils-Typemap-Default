@@ -15,24 +15,24 @@ name: ExtUtils-Typemap-Default
 provides:
   ExtUtils::Typemap::Basic:
     file: lib/ExtUtils/Typemap/Basic.pm
-    version: 0.04
+    version: 0.05
   ExtUtils::Typemap::Default:
     file: lib/ExtUtils/Typemap/Default.pm
-    version: 0.04
+    version: 0.05
   ExtUtils::Typemap::ObjectMap:
     file: lib/ExtUtils/Typemap/ObjectMap.pm
-    version: 0.04
+    version: 0.05
   ExtUtils::Typemap::STL:
     file: lib/ExtUtils/Typemap/STL.pm
-    version: 0.04
+    version: 0.05
   ExtUtils::Typemap::STL::String:
     file: lib/ExtUtils/Typemap/STL/String.pm
-    version: 0.04
+    version: 0.05
   ExtUtils::Typemap::STL::Vector:
     file: lib/ExtUtils/Typemap/STL/Vector.pm
-    version: 0.04
+    version: 0.05
 requires:
   ExtUtils::Typemap: 0.05
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.04
+version: 0.05
